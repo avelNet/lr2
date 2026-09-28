@@ -27,7 +27,7 @@ app.UseSwaggerUI();
 6.2) Запустить TrainingManagerSecurity
 6.3) Открыть localhost:8000/swagger И исследовать метод POST/users/{isNewUser}
 6.4) Перед тем, как создавать пользователя POST/users/{isNewUser} нужно создать роли пользователя во вкладке управление пользователем swagger
-[alt text](https://github.com/disant9807/lr2/blob/main/Manageuser.png)
+![Управление пользователем](https://github.com/disant9807/lr2/blob/main/Manageuser.png)
 
 7)Доработать бэкенд и реализовать Создание пользователя при получении данных пользователя с клиента
 
