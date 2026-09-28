@@ -16,11 +16,13 @@
 4) Написать бэкенд для апи фронта, который описан в файле документация
 5) Сделайте бэкенд на порте 8007, что-бы он жил на нем. (настройки AppSettings -> "Urls": "http://*:8007")
 Совет, добавьте swagger в проект, для этого нужно установить пакеты nuget Swashbuckle.AspNetCore.Swagger Swashbuckle.AspNetCore.SwaggerGen Swashbuckle.AspNetCore.SwaggerUI
-И подключить их в programm.cs (можно посмотреть в проекте funny) 
+И подключить их в programm.cs (можно посмотреть в проекте funny из первой лабораторной работы) 
+```
 builder.Services.AddSwaggerGen();
 
 app.UseSwagger();
 app.UseSwaggerUI();
+```
 
 6) Запустить смежную систему учета пользователей, для этого необходимо
 6.1) Открыть Backend User Service файл AppSettingsJson и настроить строку подключению к базе данных
@@ -38,12 +40,6 @@ app.UseSwaggerUI();
 8) Проверить что пользователь не архивный и не удаленный, если иначе, то отправлять ответ сервера (вы не обслуживаетесь)
 
 
-```
-builder.Services.AddSwaggerGen();
-
-app.UseSwagger();
-app.UseSwaggerUI();
-```
 ## Документация по лабораторной 2
 
 ### (Создать пользователя при получении данных)
