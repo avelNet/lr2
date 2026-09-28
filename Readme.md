@@ -10,20 +10,30 @@
  
 
 ## Инструкция
-1) Открыть CMD от имени  администратора в папке с Лабораторной в папке frontend
+1) Открыть CMD от имени  администратора в папке с Лабораторной
 2) start nginx.exe
 3) localhost:8086
 4) Написать бэкенд для апи фронта, который описан в файле документация
-5) Сделайте бэкенд на порте 8007, что-бы он жил на нем. (настройки AppSettings и AppSettings.Development -> "Urls": "http://*:8007")
+5) Сделайте бэкенд на порте 8007, что-бы он жил на нем. (настройки AppSettings -> "Urls": "http://*:8007")
 Совет, добавьте swagger в проект, для этого нужно установить пакеты nuget Swashbuckle.AspNetCore.Swagger Swashbuckle.AspNetCore.SwaggerGen Swashbuckle.AspNetCore.SwaggerUI
-И подключить их в programm.cs (можно посмотреть в проекте funny)
+И подключить их в programm.cs (можно посмотреть в проекте funny) 
+builder.Services.AddSwaggerGen();
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 6) Запустить смежную систему учета пользователей, для этого необходимо
 6.1) Открыть Backend User Service файл AppSettingsJson и настроить строку подключению к базе данных
 6.2) Запустить TrainingManagerSecurity
 6.3) Открыть localhost:8000/swagger И исследовать метод POST/users/{isNewUser}
+6.4) Перед тем, как создавать пользователя POST/users/{isNewUser} нужно создать роли пользователя во вкладке управление пользователем swagger
 
 7)Доработать бэкенд и реализовать Создание пользователя при получении данных пользователя с клиента
+7.1) Важно, Доработки должны быть следующего формата, необходимо реализовать отдельную библиотеку "прокси пользователи", 
+которая будет подключаться к основному бекенду через Dependency Injection (Можно посмотреть пример в проекте funny master, классы IOldSexLogic и OldSexLogic) и проксировать HTTP запросы на смежный сервис.
+ВАЖНО из контроллера мы не будем отправлять запросы на смежный сервис, запросы на смежный сервис мы будем отправлять именно через нашу библиотеку
 8) Проверить что пользователь не архивный и не удаленный, если иначе, то отправлять ответ сервера (вы не обслуживаетесь)
+
 
 ```
 builder.Services.AddSwaggerGen();
@@ -31,8 +41,42 @@ builder.Services.AddSwaggerGen();
 app.UseSwagger();
 app.UseSwaggerUI();
 ```
+## Документация по лабораторной 2
 
-## Документация
+### (Создать пользователя при получении данных)
+POST
+```
+/localhost:8000/users
+{
+  "id": "string",
+  "newId": "string",
+  "password": "string",
+  "surname": "string",
+  "firstName": "string",
+  "middleName": "string",
+  "roles": [
+    "string"
+  ],
+  "email": "string",
+  "phoneNumber": "string",
+  "certificateFrom": "2026-09-28T03:53:54.953Z",
+  "certificateTo": "2026-09-28T03:53:54.953Z",
+  "archive": true,
+  "fromAD": true,
+  "blocked": true,
+  "departmentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "department": "string",
+  "organization": "string",
+  "ownRequests": true,
+  "notifications": 1,
+  "createdDatetime": "2026-09-28T03:53:54.953Z",
+  "lastUpdateDatetime": "2026-09-28T03:53:54.953Z",
+  "lastPasswordChangeDatetime": "2026-09-28T03:53:54.953Z",
+  "lastLoginDatetime": "2026-09-28T03:53:54.953Z"
+}
+```
+
+## Документация по лабораторной 1
 
 ### (Реализовать заказ колы)
 ```
@@ -93,37 +137,3 @@ export type TConnectDialog = {
 ```
 Вывод: Необходимо что-бы данные обработались и сохранились в логи
 Дополнительно: Нужно что-бы данные обработались и сохранились в базу (дать возможность производить операции CRUD через swagger)
-
-
-### (Создать пользователя при получении данных)
-POST
-```
-/localhost:8000/users
-{
-  "id": "string",
-  "newId": "string",
-  "password": "string",
-  "surname": "string",
-  "firstName": "string",
-  "middleName": "string",
-  "roles": [
-    "string"
-  ],
-  "email": "string",
-  "phoneNumber": "string",
-  "certificateFrom": "2026-09-28T03:53:54.953Z",
-  "certificateTo": "2026-09-28T03:53:54.953Z",
-  "archive": true,
-  "fromAD": true,
-  "blocked": true,
-  "departmentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "department": "string",
-  "organization": "string",
-  "ownRequests": true,
-  "notifications": 1,
-  "createdDatetime": "2026-09-28T03:53:54.953Z",
-  "lastUpdateDatetime": "2026-09-28T03:53:54.953Z",
-  "lastPasswordChangeDatetime": "2026-09-28T03:53:54.953Z",
-  "lastLoginDatetime": "2026-09-28T03:53:54.953Z"
-}
-```
