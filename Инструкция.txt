@@ -1,0 +1,18 @@
+1) Открыть CMD от имени  администратора в папке с Лабораторной
+2) start nginx.exe
+3) localhost:8086
+4) Написать бэкенд для апи фронта, который описан в файле документация
+5) Сделайте бэкенд на порте 8007, что-бы он жил на нем. (настройки AppSettings -> "Urls": "http://*:8007")
+Совет, добавьте swagger в проект, для этого нужно установить пакеты nuget Swashbuckle.AspNetCore.Swagger Swashbuckle.AspNetCore.SwaggerGen Swashbuckle.AspNetCore.SwaggerUI
+И подключить их в programm.cs (можно посмотреть в проекте funny) 
+builder.Services.AddSwaggerGen();
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+6) Запустить смежную систему учета пользователей, для этого необходимо
+6.1) Открыть Backend User Service файл AppSettingsJson и настроить строку подключению к базе данных
+6.2) Запустить TrainingManagerSecurity
+6.3) Открыть localhost:8000/swagger И исследовать метод POST/users/{isNewUser}
+
+7)Доработать бэкенд и реализовать Создание пользователя при получении данных пользователя с клиента

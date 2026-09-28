@@ -1,0 +1,80 @@
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.endpoints.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\spitsyn_d\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\appsettings.Development.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\appsettings.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.endpoints.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\WebApplication1.exe
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\WebApplication1.deps.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\WebApplication1.dll
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\WebApplication1.pdb
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\Microsoft.OpenApi.dll
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\rpswa.dswa.cache.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cs
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json.cache
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\staticwebassets.development.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebAppli.7D14BD69.Up2Date
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+\\servertopnsk\total v2.0\Temporary Shared\Asp Net Core Ajax\JokeMaster\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll

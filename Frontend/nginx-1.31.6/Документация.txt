@@ -1,0 +1,41 @@
+/localhost:8007/SendCola
+export type TConnectDialogCola = {
+    tasty: string | null,
+    volume: string | null,
+    name: string | null,
+    phone: string | null
+}
+Вывод: Необходимо что-бы данные обработались и сохранились в логи
+
+
+
+/localhost:8007/HelpPolice
+export type TConnectDialogPolice = {
+    address: string | null,
+}	
+Вывод: Необходимо прочитать header запроса и исходя из браузера, его типа, решить помогать или нет
+
+/localhost:8007/SendPizza
+export type TConnectDialogPizza = {
+    size: string | null,
+    options: string[] | null,
+    thickness: string | null
+}
+Вывод: Необходимо что-бы данные обработались и сохранились в логи
+
+
+/localhost:8007/GetDigitalList
+export type TDigitalList = {
+    filter: string | null,
+    sorted: string | null,
+}
+Вывод: Необходимо что-бы данные список вернулся в виде html
+
+/localhost:8007/Send
+export type TConnectDialog = {
+    requiredTask: string[] | null,
+    phone: string | null,
+    name: string | null
+}
+
+Вывод: Необходимо что-бы данные обработались и сохранились в логи
