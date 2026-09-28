@@ -17,6 +17,13 @@
 5) Сделайте бэкенд на порте 8007, что-бы он жил на нем. (настройки AppSettings и AppSettings.Development -> "Urls": "http://*:8007")
 Совет, добавьте swagger в проект, для этого нужно установить пакеты nuget Swashbuckle.AspNetCore.Swagger Swashbuckle.AspNetCore.SwaggerGen Swashbuckle.AspNetCore.SwaggerUI
 И подключить их в programm.cs (можно посмотреть в проекте funny)
+6) Запустить смежную систему учета пользователей, для этого необходимо
+6.1) Открыть Backend User Service файл AppSettingsJson и настроить строку подключению к базе данных
+6.2) Запустить TrainingManagerSecurity
+6.3) Открыть localhost:8000/swagger И исследовать метод POST/users/{isNewUser}
+
+7)Доработать бэкенд и реализовать Создание пользователя при получении данных пользователя с клиента
+8) Проверить что пользователь не архивный и не удаленный, если иначе, то отправлять ответ сервера (вы не обслуживаетесь)
 
 ```
 builder.Services.AddSwaggerGen();
