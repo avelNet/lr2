@@ -214,3 +214,4 @@
 2026/09/17 19:31:24 [error] 16896#8856: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /mail/Send HTTP/1.1", upstream: "http://127.0.0.1:8000/mail/Send", host: "localhost:8080", referrer: "http://localhost:8080/"
 2026/09/17 22:39:48 [notice] 21088#3688: signal process started
 2026/09/18 10:17:31 [notice] 24364#5548: signal process started
+2026/09/30 09:49:53 [emerg] 5512#14612: CreateDirectory() "C:\Users\spitsyn_d\Documents\Projects\lr2\Frontend/temp/client_body_temp" failed (3: The system cannot find the path specified)
