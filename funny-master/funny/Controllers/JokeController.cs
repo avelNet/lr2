@@ -9,9 +9,6 @@ namespace funny.Controllers
         ILogger<JokeController> _logger;
         IOldSexLogic _oldSexLogic;
 
-
-   
-
         public JokeController(ILogger<JokeController> logger, IOldSexLogic oldSexLogic)
         {
             _oldSexLogic = oldSexLogic;
