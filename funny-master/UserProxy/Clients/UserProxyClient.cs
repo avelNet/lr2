@@ -14,6 +14,9 @@ namespace UserProxy.Clients
             _httpClient = httpClient;
         }
 
+        // ReadFromJsonAsync читает JSON-ответ и десериализует его в объект указанного типа.
+        // В данном случае, мы ожидаем, что ответ будет содержать логическое значение (true или false),
+        // которое указывает на существование пользователя с заданным идентификатором.   
         public async Task<bool> ExistsAsync(string id)
         {
             var response = await _httpClient.GetAsync($"users/{Uri.EscapeDataString(id)}/exists");
@@ -70,6 +73,26 @@ namespace UserProxy.Clients
             {
                 user.Organization = "-";
             }
+            if (string.IsNullOrEmpty(user.Password))
+            {
+                // Guid.NewGuid().ToString("N"); 
+                // Генерирует уникальный идентификатор без дефисов, который можно использовать в качестве пароля
+                user.Password = "Aa1" + Guid.NewGuid().ToString("N");
+            }
+            if(user.Roles.Count == 0)
+            {
+                user.Roles.Add("client");
+            }
+
+            var now = DateTime.UtcNow;
+
+            // ??= значение присваивается только если свойство равно null, иначе оно остается без изменений
+            user.CertificateFrom ??= now;
+            user.CertificateTo ??= now.AddYears(1);
+            user.CreatedDatetime ??= now;
+            user.LastUpdateDatetime ??= now;
+            user.LastPasswordChangeDatetime ??= now;
+            user.LastLoginDatetime ??= now;
         }
     }
 }
